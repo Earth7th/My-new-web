@@ -1,0 +1,20 @@
+.about {
+    margin-top: 10rem;
+
+    .header {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
